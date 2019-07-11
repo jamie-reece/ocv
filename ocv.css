@@ -1,0 +1,269 @@
+body
+{
+  color: black;
+  background-color: #FFFFFF;
+  font-family:Arial,Helvetica,sans-serif;
+/*  background: white url("main-box-bg.gif") repeat-x; */
+  font-size: 100%;
+}
+
+textarea
+{
+  font-family:Arial,Helvetica,sans-serif;
+  font-size: 100%;
+}
+
+table, form, input, select, option, button
+{
+  font-size: 100%;
+}
+
+#page-box
+{
+  background-color: white;
+  position: relative;
+/*margin: 2px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: lightgrey;
+  padding: 10px;*/
+}
+#twitter-follow-button
+{
+  position: absolute;
+  background-color: transparent;
+  top: 30px;
+  left: 920px;
+  /*right: 0px;*/
+  width: 100px;
+  overflow: hidden;
+}
+#fb-like-button
+{
+  position: absolute;
+  background-color: transparent;
+  top: 0px;
+  left: 920px;
+  /*right: 0px;*/
+  width: 100px;
+  overflow: hidden;
+}
+#view-photo
+{
+  margin: 30px 0px 0px 0px;
+}
+table.page
+{
+/*  width: 980px;*/
+}
+
+.line
+{
+/*  background: white url("main-box-bg.gif") repeat-x; */
+/*  background-color: lightgrey; */
+  border-width: 0px;
+  border-color: red;
+  border-style: solid;
+  margin: 0px;
+  padding: 0px;
+  width: 0px;
+}
+
+table.nav
+{
+  white-space: nowrap;
+  border-style: solid;
+  border-width: 5px 0px 5px 5px;
+  border-color: white;
+  background-color: white;
+  padding: 0;
+}
+
+td.nav1_off, td.nav1_on, td.nav2_off, td.nav2_on
+{
+  border-style: solid;
+  border-width: 0;
+  border-color: white;
+  margin: 0;
+  padding: 5px;
+  text-align: right;
+}
+
+td
+{
+	vertical-align: top;
+}
+
+a
+{
+  color: #000000; 
+  white-space: nowrap;
+/*  font-size: 90%; */
+/*font: 10pt Arial, Helvetica, sans-serif;*/
+  font-weight: 600; 
+  text-decoration: none;
+}
+
+a:link, a:visited, a:active
+{
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+a.pic img
+{
+  border-width: 1px;
+  border-color: white;
+}
+
+a.pic:hover img
+{
+  border-color: black;
+}
+
+table.pic
+{
+	width: 100%
+}
+
+td.pic
+{
+  margin: 2px;
+}
+
+table.picture
+{
+  margin: 0px 0px;
+  border-width: 0px;
+  padding: 0px;
+}
+
+td.verylong
+{
+  vertical-align: top;
+  margin: 0px;
+  border-width: 0px;
+  padding: 0px;
+}
+
+div.description
+{
+  margin: 3px;
+}
+
+div.event
+{
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 1px;
+  background-color: #EEEEEE;
+}
+
+table.event1
+{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-width: 0;
+}
+
+table.event2
+{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-width: 0;
+}
+
+td.cap, td.data
+{
+  margin: 0px;
+  border-width: 0 1px 1px 0;
+  border-color: white black black white;
+  border-style: solid;
+  background-color: #D0D0D0;
+  padding: 2px 5px;
+  font-size: 100%;
+}
+
+td.head-nowrap
+{
+  margin: 0px;
+  border-width: 0 1px 1px 0;
+  border-color: white black black white;
+  border-style: solid;
+  background-color: #D0D0D0;
+  padding: 2px 5px;
+  font-size: 100%;
+  white-space: nowrap;
+}
+
+td.eventsheaders
+{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-width: 0;
+}
+
+td.picture
+{
+  padding: 0;
+  margin: 0;
+  border-width: 0;
+  background-color: transparent;
+  width: 1px;
+}
+
+span.description
+{
+  padding: 2px 2px 2px 2px;
+  border-width: 20px 20px 20px 20px;
+}
+
+div.datablock
+{
+  background-color: #EEEEEE;
+  padding: 1px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+table.datahead
+{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-width: 0;
+}
+
+td.datahead
+{
+  padding: 5px 5px;
+  border-width:0 0px 0px 0; 
+  border-color:black; 
+  border-style:solid;
+}
+
+div.databody
+{
+  padding: 2px 6px;
+}
+
+a.urllink, a.urllink:active, a.urllink:visited {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Some formatting the wiki uses embedded in pages, not in its own stylesheet. */
+
+.frame  { border:1px solid #cccccc; padding:4px; background-color:#f9f9f9; }
+.lfloat { float:left; margin-right:0.5em; }
+.rfloat { float:right; margin-left:0.5em; }
+
