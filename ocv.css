@@ -86,10 +86,20 @@ table.nav {
 table.nav tbody {
   display: flex;
   justify-content: flex-end;
+  align-items: center; 
 }
 
-table.nav tbody tr:first-child {
+table.nav tbody tr {
+  padding: 0.5rem;
+}
+
+table.nav tbody tr:first-child { /* aligns logo left */
   margin-right: auto;
+}
+
+table.nav tbody tr:last-child { /* targets join 'button' */
+  border: 1px solid black;
+  margin-right: 1rem;
 }
 
 /* Some formatting the wiki uses embedded in pages, not in its own stylesheet. */
