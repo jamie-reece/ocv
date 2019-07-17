@@ -50,6 +50,7 @@ h4 {
 
 p, li, a {
   font-size: 1.2rem;
+  line-height: 1.3;
 }
 
 /* page layout */
@@ -105,11 +106,23 @@ table.image-banner tbody tr td a img {
 /* page wrapper */
 
 td.main {
-  padding: 0 4rem;
+  padding: 1rem 4rem;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
 }
 
 td.footer {
-  padding: 0 2rem;
+  padding: 2rem 4rem;
+}
+
+/* footer */
+
+td.footer>table {
+  width: 100%;
+}
+
+td.footer>table>tbody>tr:first-child {
+  display: flex;
 }
 
 /* Some formatting the wiki uses embedded in pages, not in its own stylesheet. */
