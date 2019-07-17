@@ -69,7 +69,7 @@ table.nav {
 table.nav tbody {
   display: flex;
   justify-content: flex-end;
-  align-items: center; 
+  align-items: center;
 }
 
 table.nav tbody tr {
@@ -106,7 +106,7 @@ table.image-banner tbody tr td a img {
 /* page wrapper */
 
 td.main {
-  padding: 1rem 4rem;
+  padding: 1rem 6rem;
   border-top: 1px solid gainsboro;
   border-bottom: 1px solid gainsboro;
 }
