@@ -1,3 +1,5 @@
+/* custom styles */
+
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -20,9 +22,39 @@ body {
   margin: 0;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+p, li, a {
+  font-size: 1.2rem;
+}
+
 /* page layout */
 
-table.page > tbody > tr:first-child {
+table.page>tbody>tr:first-child {
   display: flex;
   flex-direction: column;
 }
@@ -44,6 +76,8 @@ table.image-banner tbody tr td a img {
   max-width: 100%;
   height: auto;
 }
+
+/* main navbar (top) */
 
 table.nav {
   width: 100%;
