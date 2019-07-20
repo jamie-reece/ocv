@@ -121,8 +121,27 @@ td.footer>table {
   width: 100%;
 }
 
-td.footer>table>tbody>tr:first-child {
+td.footer>table>tbody {
   display: flex;
+}
+
+td.footer>table>tbody th {
+  text-align: left;
+  text-decoration: underline;
+}
+
+td.footer>table>tbody tr {
+  display: flex;
+  flex-direction: column;
+}
+
+td.footer>table>tbody tr:first-child {
+  margin-right: 2rem;
+}
+
+td.footer>table>tbody tr:last-child {
+  margin-left: auto;
+  font-style: italic;
 }
 
 /* Some formatting the wiki uses embedded in pages, not in its own stylesheet. */
