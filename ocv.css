@@ -144,6 +144,40 @@ td.footer>table>tbody tr:last-child {
   font-style: italic;
 }
 
+/* events list */
+
+table.events-list>tbody>tr>td {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div.event {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 4px 1px whitesmoke;
+  max-width: 32%;
+}
+
+div.event * {
+  font-size: 1rem;
+}
+
+table.event2 * {
+  font-size: 1.1rem;
+}
+
+div.event img {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+td.eventheaders>table.event2>tbody>tr {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Some formatting the wiki uses embedded in pages, not in its own stylesheet. */
 
 .frame {
@@ -160,4 +194,22 @@ td.footer>table>tbody tr:last-child {
 .rfloat {
   float: right;
   margin-left: 0.5em;
+}
+
+/* media queries */
+
+@media screen and (max-width: 900px) {
+
+  div.event {
+    min-width: 48%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  div.event {
+    min-width: 98%;
+  }
+
 }
