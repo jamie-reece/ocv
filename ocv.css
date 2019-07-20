@@ -55,6 +55,10 @@ p, li, a, td, div {
 
 /* page layout */
 
+table.page {
+  max-width: 100%;
+}
+
 table.page>tbody>tr:first-child {
   display: flex;
   flex-direction: column;
@@ -199,6 +203,14 @@ td.eventheaders>table.event2>tbody>tr {
 /* media queries */
 
 @media screen and (max-width: 900px) {
+
+  td.main {
+    padding: 1rem;
+  }
+  
+  td.footer {
+    padding: 1.5rem;
+  }
 
   div.event {
     min-width: 48%;
