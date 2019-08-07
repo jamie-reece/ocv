@@ -55,10 +55,6 @@ p, li, a, td, div {
 
 /* page layout */
 
-table.page {
-  max-width: 100%;
-}
-
 table.page>tbody>tr:first-child {
   display: flex;
   flex-direction: column;
@@ -109,6 +105,10 @@ table.image-banner tbody tr td a img {
 
 /* page wrapper */
 
+table {
+  width: 100%;
+}
+
 td.main {
   padding: 1rem 6rem;
   border-top: 1px solid gainsboro;
@@ -117,6 +117,22 @@ td.main {
 
 td.footer {
   padding: 2rem 4rem;
+}
+
+/* site list */
+
+table.datahead>tbody {
+  display: flex;
+  flex-direction: column;
+}
+
+table.datahead>tbody>tr {
+  display: flex;
+  justify-content: flex-end;
+}
+
+table.datahead>tbody>tr>td:first-child {
+  margin-right: auto;
 }
 
 /* footer */
