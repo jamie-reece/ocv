@@ -17,7 +17,7 @@ html {
 body {
   background-color: #FFFFFF;
   font-size: 16px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Literata", Helvetica, Arial, sans-serif;
   color: black;
   margin: 0;
 }
@@ -81,8 +81,15 @@ table.nav tbody tr:first-child { /* aligns logo left */
 }
 
 table.nav tbody tr:last-child { /* targets join 'button' */
-  border: 1px solid black;
+  border: 1px solid lightgray;
   margin-right: 1rem;
+  border-radius: 0.35rem;
+  box-shadow: 0px 0px 2px 1px whitesmoke;
+}
+
+table.nav tbody tr:last-child:hover { /* targets join 'button' */
+  box-shadow: inset 0px 0px 2px 1px whitesmoke;
+  cursor: pointer;
 }
 
 /* image banner */
