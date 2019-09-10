@@ -37,6 +37,7 @@ a:hover {
 
 h1 {
   font-size: 2.4rem;
+  border-bottom: 4px double gainsboro;
 }
 
 h2 {
@@ -54,6 +55,12 @@ h4 {
 p, li, a, td, div, span {
   font-size: 1.2rem;
   line-height: 1.5;
+}
+
+td.main>table:not(.image-banner) {
+  background-color: whitesmoke;
+  padding: 2rem;
+  box-shadow: 0px 0px 2px 1px gainsboro;
 }
 
 /* page layout */
@@ -115,6 +122,10 @@ table.nav tbody tr:last-child:hover { /* targets join 'button' */
 }
 
 /* image banner */
+
+table.image-banner {
+  margin-bottom: 1.5rem;
+}
 
 table.image-banner tbody tr {
   max-width: 100%;
@@ -206,7 +217,7 @@ td.footer>table>tbody tr:last-child {
 /* events list */
 
 div.event>table>tbody>tr:first-child>td {
-  border-bottom: 1px solid whitesmoke;
+  border-bottom: 2px solid gainsboro;
   padding-bottom: 0.5rem;
 }
 
@@ -228,7 +239,7 @@ div.event>table>tbody>tr:last-child>td {
 
 div.event>table>tbody>tr:last-child>td {
   padding-top: 0.5rem;
-  border-top: 1px solid whitesmoke;
+  border-top: 2px solid gainsboro;
 }
 
 table.events-list>tbody>tr>td {
@@ -241,7 +252,8 @@ div.event {
   padding: 1rem;
   margin-bottom: 2rem;
   border-radius: 0.5rem;
-  box-shadow: 0px 0px 2px 2px whitesmoke;
+  background-color: white;
+  box-shadow: 0px 0px 2px 1px gainsboro;
 }
 
 div.event * {
