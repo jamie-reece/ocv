@@ -176,8 +176,9 @@ table.datahead>tbody>tr>td:first-child {
 }
 
 table.datahead>tbody>tr>td>a {
-  width: 10rem;
+  margin-right: 2rem;
 }
+
 
 /* footer */
 
