@@ -71,6 +71,10 @@ table.page>tbody>tr:first-child {
 
 td.header {
   padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 2px -2px whitesmoke;
 }
 
 table.nav {
