@@ -141,6 +141,7 @@ table.image-banner tbody tr td {
 table.image-banner tbody tr td a img {
   max-width: 100%;
   height: auto;
+  padding: 0.25rem;
 }
 
 /* page wrapper */
@@ -167,10 +168,11 @@ table.datahead>tbody {
 
 table.datahead>tbody>tr {
   display: flex;
+  justify-content: flex-end;
 }
 
 table.datahead>tbody>tr>td:first-child {
-  margin-left: 0;
+  margin-right: auto;
 }
 
 table.datahead>tbody>tr>td>a {
