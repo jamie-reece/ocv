@@ -71,6 +71,7 @@ table.page>tbody>tr:first-child {
 
 td.header {
   padding: 0;
+  background-color: #ffffff;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -86,7 +87,6 @@ table.nav tbody {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: whitesmoke;
 }
 
 table.nav tbody tr {
@@ -101,7 +101,6 @@ table.nav tbody tr:first-child { /* aligns logo left */
 table.nav tbody tr:last-child { /* targets join 'button' */
   margin-right: 1rem;
   border-radius: 0.35rem;
-  background-color: #00B3B3;
   box-shadow: 0px 0px 2px 1px #b3cbbb;
 }
 
@@ -145,7 +144,7 @@ td.main {
 
 td.footer {
   padding: 3rem 6rem;
-  background-color: whitesmoke;
+  border-top: 2px solid whitesmoke;
 }
 
 /* site list */
@@ -242,7 +241,6 @@ div.event {
   padding: 1rem;
   margin-bottom: 2rem;
   border-radius: 0.5rem;
-  background-color: #ccefef;
   box-shadow: 0px 0px 2px 2px whitesmoke;
 }
 
