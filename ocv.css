@@ -63,6 +63,16 @@ td.main>table:not(.image-banner) {
   box-shadow: 0px 0px 2px 1px gainsboro;
 }
 
+h2 + div>span>img { /* targets images on projects page */
+  max-width: 350px;
+}
+
+h2 + div>span { /* targets image captions on projects page */
+  font-size: 1.1rem;
+  font-style: italic;
+  text-align: right;
+}
+
 /* page layout */
 
 table {
@@ -251,6 +261,7 @@ div.event>table>tbody>tr:last-child>td {
 }
 
 table.events-list>tbody>tr>td {
+  padding-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -287,19 +298,19 @@ td.eventheaders>table.event2>tbody>tr {
 /* Some formatting the wiki uses embedded in pages, not in its own stylesheet. */
 
 .frame {
-  border: 1px solid #cccccc;
-  padding: 4px;
-  background-color: #f9f9f9;
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 2px 1px lightgray;
 }
 
 .lfloat {
   float: left;
-  margin-right: 0.5em;
+  margin-right: 1rem;
 }
 
 .rfloat {
   float: right;
-  margin-left: 0.5em;
+  margin-left: 1rem;
 }
 
 /* media queries */
