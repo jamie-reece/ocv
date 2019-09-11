@@ -59,7 +59,7 @@ p, li, a, td, div, span {
 
 td.main>table:not(.image-banner) {
   background-color: whitesmoke;
-  padding: 2rem;
+  padding: 1rem 2rem;
   box-shadow: 0px 0px 2px 1px gainsboro;
 }
 
@@ -173,12 +173,17 @@ table.datahead>tbody>tr {
 
 table.datahead>tbody>tr>td:first-child {
   margin-right: auto;
+  width: auto;
 }
 
-table.datahead>tbody>tr>td>a {
-  margin-right: 2rem;
+table.datahead>tbody>tr>td {
+  width: 8rem;
+  text-align: center;
 }
 
+table.datahead>tbody>tr>td:last-child>a{
+  margin-right: 0;
+}
 
 /* footer */
 
