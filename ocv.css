@@ -97,6 +97,8 @@ td.header {
 
 td.header * {
   color: white;
+  text-shadow: 1px 1px 2px #d59268;
+  font-size: 1.25rem;
 }
 
 table.nav {
@@ -104,7 +106,7 @@ table.nav {
 }
 
 table.nav tbody {
-  padding: 0.25rem;
+  padding: 0.25rem 1rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -119,8 +121,9 @@ table.nav tbody tr:first-child { /* aligns logo left */
   margin-right: auto;
 }
 
-table.nav tbody tr:first-child img { /* aligns logo left */
+table.nav tbody tr:first-child img {
   max-width: 10rem;
+  margin: 0.4rem 0;
 }
 
 table.nav tbody tr:last-child { /* targets join 'button' */
@@ -218,6 +221,7 @@ td.footer {
 
 td.footer * {
   color: white;
+  text-shadow: 1px 1px 2px #d59268;
 }
 
 td.footer hr {
@@ -262,6 +266,7 @@ td.footer>table>tbody tr:last-child {
 
 td.footer>table>tbody tr:last-child img {
   max-width: 16rem;
+  margin-top: 1rem;
 }
 
 /* events list */
