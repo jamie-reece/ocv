@@ -88,7 +88,7 @@ table.page>tbody>tr:first-child {
 
 td.header {
   padding: 0;
-  background-color: #ffffff;
+  background-color: #f5b082;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -113,6 +113,10 @@ table.nav tbody tr {
 
 table.nav tbody tr:first-child { /* aligns logo left */
   margin-right: auto;
+}
+
+table.nav tbody tr:first-child img { /* aligns logo left */
+  max-width: 10rem;
 }
 
 table.nav tbody tr:last-child { /* targets join 'button' */
@@ -237,6 +241,11 @@ td.footer>table>tbody tr:first-child {
 td.footer>table>tbody tr:last-child {
   margin-left: auto;
   font-style: italic;
+  text-align: right;
+}
+
+td.footer>table>tbody tr:last-child img {
+  max-width: 16rem;
 }
 
 /* events list */
