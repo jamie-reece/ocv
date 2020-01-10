@@ -208,6 +208,10 @@ table.datahead a {
 
 /* footer */
 
+td.footer {
+  background-color: #f5b082;
+}
+
 td.footer>table {
   width: 100%;
 }
