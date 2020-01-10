@@ -95,6 +95,10 @@ td.header {
   box-shadow: 0 2px 2px -2px gainsboro;
 }
 
+td.header * {
+  color: white;
+}
+
 table.nav {
   width: 100%;
 }
@@ -210,6 +214,14 @@ table.datahead a {
 
 td.footer {
   background-color: #f5b082;
+}
+
+td.footer * {
+  color: white;
+}
+
+td.footer hr {
+  border-color: white;
 }
 
 td.footer>table {
