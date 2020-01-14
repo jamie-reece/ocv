@@ -110,26 +110,33 @@ table.nav tbody {
 }
 
 table.nav tbody tr {
-  height: 112px;
+  height: 90px;
 }
 
 table.nav tbody tr td {
   height: 100%;
-  border: 1px solid black;
+  border: 1px solid whitesmoke;
   display: flex;
   align-items: center;
+}
+
+table.nav tbody tr td {
+  padding: 0 1.5rem;
 }
 
 table.nav tbody tr:first-child { /* aligns logo left */
   margin-right: auto;
 }
 
-table.nav tbody tr:last-child { /* targets join 'button' */
-  border-radius: 0.35rem;
-  box-shadow: 0px 0px 2px 1px #b3cbbb;
+table.nav tbody tr:first-child td { /* aligns logo left */
+  border: none;
 }
 
-table.nav tbody tr:last-child>td>a {
+table.nav tbody tr:last-child { /* targets join 'button' */
+  
+}
+
+.nav tbody tr:last-child>td>a {
   /* color: white;
   text-shadow: 1px 1px 1px gray; */
 }
@@ -167,6 +174,10 @@ table.image-banner tbody tr td a img {
 
 table {
   width: 100%;
+}
+
+table tbody {
+  /* margin: -4px; */
 }
 
 td.main {
