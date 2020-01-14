@@ -78,6 +78,25 @@ h2 + div>span { /* targets image captions on projects page */
 
 /* page layout */
 
+div.social {
+  height: 100px;
+  width: 50px;
+  position: fixed;
+  top: 30vh;
+  left: 0;
+}
+
+div.social div {
+  height: 50px;
+}
+
+div.social div:first-child {
+  background-color: #244872;
+}
+div.social div:last-child {
+  background-color: #0eaad6;
+}
+
 table {
   border-spacing: 0;
 }
@@ -154,12 +173,12 @@ table.nav tbody tr:first-child td { /* aligns logo left */
 }
 
 table.nav tbody tr:last-child { /* targets join 'button' */
-  background-color: orangered;
+  background-color: #orangered;
 }
 
 .nav tbody tr:last-child>td>a {
-  /* color: white;
-  text-shadow: 1px 1px 1px gray; */
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
 
 table.nav tbody tr:last-child:hover { /* targets join 'button' */
