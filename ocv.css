@@ -63,7 +63,6 @@ td.main>table:not(.image-banner) {
   background-color: whitesmoke;
   padding: 1rem 2rem;
   box-shadow: 0px 0px 2px 1px gainsboro;
-  margin-top: 100rem;
 }
 
 h2 + div>span>img { /* targets images on projects page */
@@ -133,6 +132,15 @@ table.nav tbody tr td a {
 
 table.nav tbody tr:first-child { /* aligns logo left */
   margin-right: auto;
+}
+
+table.nav tbody tr:first-child td a { /* aligns logo left */
+  display: flex;
+  align-items: center;
+}
+
+table.nav tbody tr:first-child td img { /* aligns logo left */
+  width: 200px;
 }
 
 table.nav tbody tr:first-child td { /* aligns logo left */
@@ -233,6 +241,10 @@ table.datahead a {
 
 td.footer>table {
   width: 100%;
+}
+
+td.footer img {
+  max-width: 200px;
 }
 
 td.footer>table>tbody {
