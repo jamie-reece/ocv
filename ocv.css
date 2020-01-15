@@ -15,10 +15,11 @@ html {
 }
 
 body {
-  background-color: #FFFFFF;
   font-family: "Lato", serif;
   color: black;
   margin: 0;
+  background: url("assets/hero-img.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 h1, h2, h3, h4, a.nav, td.footer a {
