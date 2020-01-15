@@ -116,6 +116,10 @@ table.nav tbody tr:first-child { /* aligns logo left */
   margin-right: auto;
 }
 
+table.nav tbody tr:first-child td a img { /* resize logo */
+  max-width: 10rem;
+}
+
 table.nav tbody tr:last-child { /* targets join 'button' */
   margin-right: 1rem;
   border-radius: 0.35rem;
@@ -239,6 +243,10 @@ td.footer>table>tbody tr:first-child {
 td.footer>table>tbody tr:last-child {
   margin-left: auto;
   font-style: italic;
+}
+
+td.footer>table>tbody tr:last-child img {
+  max-width: 12rem;
 }
 
 /* events list */
