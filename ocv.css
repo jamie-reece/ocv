@@ -86,6 +86,25 @@ table.page>tbody>tr:first-child {
   flex-direction: column;
 }
 
+div.social { /* social buttons */
+  width: 50px;
+  height: 100px;
+  position: fixed;
+  top: 30vh;
+  left: 0;
+  background-color: white;
+}
+
+div.social .facebook {
+  height: 50px;
+  background-color: #3b5998;
+}
+
+div.social .twitter {
+  height: 50px;
+  background-color: #0eaad6;
+}
+
 /* main navbar (top) */
 
 td.header {
@@ -102,7 +121,6 @@ table.nav {
 }
 
 table.nav tbody {
-  padding: 0.25rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
