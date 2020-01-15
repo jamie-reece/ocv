@@ -297,7 +297,6 @@ div.event>table>tbody>tr:last-child>td {
 }
 
 table.events-list>tbody>tr>td {
-  padding-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
