@@ -173,7 +173,7 @@ table.nav tbody tr:first-child td { /* aligns logo left */
 }
 
 table.nav tbody tr:last-child { /* targets join 'button' */
-  background-color: #orangered;
+  background-color: orangered;
 }
 
 .nav tbody tr:last-child>td>a {
