@@ -98,11 +98,17 @@ div.social { /* social buttons */
 div.social .facebook {
   height: 50px;
   background-color: #3b5998;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div.social .twitter {
   height: 50px;
   background-color: #0eaad6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* main navbar (top) */
@@ -191,7 +197,6 @@ td.main {
 td.footer {
   margin-top: 2rem;
   padding: 3rem 6rem;
-  border-top: 2px solid whitesmoke;
   background-color: rgba(245,176,130,1);
 }
 
