@@ -111,6 +111,10 @@ div.social .twitter {
   align-items: center;
 }
 
+table.intro-desc {
+  margin-bottom: 50vh;
+}
+
 /* main navbar (top) */
 
 td.header {
