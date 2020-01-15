@@ -301,10 +301,12 @@ td.footer>table>tbody tr:first-child {
 td.footer>table>tbody tr:last-child {
   margin-left: auto;
   font-style: italic;
+  text-align: right;
 }
 
 td.footer>table>tbody tr:last-child img {
   max-width: 12rem;
+  margin-top: 1rem;
 }
 
 /* events list */
