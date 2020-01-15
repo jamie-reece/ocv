@@ -5,6 +5,7 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  scroll-padding-top: 18vh;
 }
 
 *,
@@ -113,7 +114,7 @@ div.social .twitter {
 }
 
 table.intro-desc {
-  margin-bottom: 50vh;
+  margin-bottom: 38vh;
 }
 
 table.intro-desc a {
@@ -132,6 +133,10 @@ table.intro-desc button {
   border-radius: 0.35rem;
   background-color: orangered;
   cursor: pointer;
+}
+
+table#further-info {
+  
 }
 
 /* main navbar (top) */
