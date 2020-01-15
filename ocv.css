@@ -4,6 +4,7 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -90,7 +91,7 @@ div.social { /* social buttons */
   width: 50px;
   height: 100px;
   position: fixed;
-  top: 40vh;
+  top: 25vh;
   left: 0;
   background-color: white;
 }
@@ -113,6 +114,24 @@ div.social .twitter {
 
 table.intro-desc {
   margin-bottom: 50vh;
+}
+
+table.intro-desc a {
+  display: inline-block;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+table.intro-desc button {
+  padding: 1rem;
+  margin-bottom: -3.2rem;
+  font-family: "Literata", serif;
+  font-size: 1.4rem;
+  color: white;
+  border-radius: 0.35rem;
+  background-color: orangered;
+  cursor: pointer;
 }
 
 /* main navbar (top) */
