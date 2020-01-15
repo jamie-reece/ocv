@@ -124,16 +124,15 @@ table.nav tbody tr:first-child td a img { /* resize logo */
 table.nav tbody tr:last-child { /* targets join 'button' */
   margin-right: 1rem;
   border-radius: 0.35rem;
-  box-shadow: 0px 0px 2px 1px #b3cbbb;
+  background-color: orangered;
 }
 
 table.nav tbody tr:last-child>td>a {
-  /* color: white;
-  text-shadow: 1px 1px 1px gray; */
+  color: white;
+  text-shadow: 1px 1px 1px gray;
 }
 
 table.nav tbody tr:last-child:hover { /* targets join 'button' */
-  box-shadow: inset 0px 0px 2px 1px #b3cbbb;
   cursor: pointer;
 }
 
