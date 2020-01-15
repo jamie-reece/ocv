@@ -136,6 +136,7 @@ table.nav tbody tr:last-child:hover { /* targets join 'button' */
 
 table.image-banner {
   margin-bottom: 1.5rem;
+  display: none;
 }
 
 table.image-banner tbody tr {
